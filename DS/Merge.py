@@ -25,7 +25,7 @@ def Merge(arr1,arr2,n1,n2):
 
     return arr3
 
-arr1=[2,4,6,8]
-arr2=[1,3,5,7,9]
+arr1=[2,4,8,10]
+arr2=[5,6,7,9,20,40,60]
 arr3=Merge(arr1,arr2,len(arr1),len(arr2))
 print(arr3)
